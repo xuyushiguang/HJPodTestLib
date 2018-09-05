@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "Persion.h"
 
 FOUNDATION_EXPORT double HJPodTestLibVersionNumber;
 FOUNDATION_EXPORT const unsigned char HJPodTestLibVersionString[];
