@@ -1,0 +1,16 @@
+PODS:
+  - HJPodTestLib (0.1.0)
+
+DEPENDENCIES:
+  - HJPodTestLib (from `../`)
+
+EXTERNAL SOURCES:
+  HJPodTestLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HJPodTestLib: 981ece0fabcce57246e9e97747f2173088297c1d
+
+PODFILE CHECKSUM: aace601ee2cf6020d91837be9d1d52b2807fccf0
+
+COCOAPODS: 1.5.3
