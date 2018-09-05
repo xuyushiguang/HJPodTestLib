@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4ACC5CE3123A48B53BC5354FEE103F65 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 091B76AFE99D864F32A639F2C0D798EB /* ReplaceMe.m */; };
 		7754DB6383A8D551FFF5930840DDCD67 /* Pods-HJPodTestLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 74687873E421117CE826E120F3FFC9B7 /* Pods-HJPodTestLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7F9F6F01FA184BD351078233383E2A71 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		8A0B40B4A885F42153B43E3F265F7062 /* HJPodTestLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 96B8DD28176CF3309A69E5FE91328DCD /* HJPodTestLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -30,7 +29,6 @@
 		03CD96D361647F7666EFF7E92E5BD72A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		03F04860213F741100131160 /* Persion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Persion.m; sourceTree = "<group>"; };
 		03F04861213F741100131160 /* Persion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Persion.h; sourceTree = "<group>"; };
-		091B76AFE99D864F32A639F2C0D798EB /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = HJPodTestLib/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		1669220BF0840C43A0587AFFFD30FA05 /* HJPodTestLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HJPodTestLib-dummy.m"; sourceTree = "<group>"; };
 		1F040D2EF98720D280E5B16485393AF1 /* Pods-HJPodTestLib_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HJPodTestLib_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		1F131AC7C0F857D4381B97BEDCF2572F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -149,7 +147,6 @@
 			isa = PBXGroup;
 			children = (
 				03F0485F213F741100131160 /* tool */,
-				091B76AFE99D864F32A639F2C0D798EB /* ReplaceMe.m */,
 				CAF85CABAAD8198D215878C008A03C5D /* Pod */,
 				66527D03899F7D6AE660C8DE07626D20 /* Support Files */,
 			);
@@ -300,7 +297,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FE0EE7B301B25BFF0F10F17AA0975DD /* HJPodTestLib-dummy.m in Sources */,
-				4ACC5CE3123A48B53BC5354FEE103F65 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
