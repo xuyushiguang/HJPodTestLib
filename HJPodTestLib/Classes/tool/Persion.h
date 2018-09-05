@@ -14,4 +14,5 @@
 
 -(void)showLog2;
 
+-(void)showLog3;
 @end

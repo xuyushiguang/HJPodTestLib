@@ -18,5 +18,9 @@
 {
     NSLog(@"this is log2");
 }
+-(void)showLog3
+{
+    NSLog(@"this is log333");
+}
 
 @end
