@@ -22,5 +22,8 @@
 {
     NSLog(@"this 333333333 is log333");
 }
-
+-(void)showLog4
+{
+    NSLog(@"this 444444 is log44444");
+}
 @end
