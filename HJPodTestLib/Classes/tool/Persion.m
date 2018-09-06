@@ -16,7 +16,7 @@
 
 -(void)showLog2
 {
-    NSLog(@"this is log2");
+    NSLog(@"this 22222222 is log2");
 }
 -(void)showLog3
 {
