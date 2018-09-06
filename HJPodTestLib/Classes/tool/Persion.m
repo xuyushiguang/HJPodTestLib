@@ -11,7 +11,7 @@
 @implementation Persion
 -(void)showLog
 {
-    NSLog(@"this is log");
+    NSLog(@"this 11111111 is log");
 }
 
 -(void)showLog2
