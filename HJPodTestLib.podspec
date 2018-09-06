@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HJPodTestLib'
-  s.version          = '1.3.0'
-  s.summary          = 'this first test 1.3.0this first test .'
+  s.version          = '1.4.0'
+  s.summary          = 'this first test 1.4.0this first test .'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = "this is test projectthis first test 1.3.0"
+  s.description      = "this is test projectthis first test 1.4.0"
 
   s.homepage         = 'https://github.com/xuyushiguang/HJPodTestLib'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -36,5 +36,5 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+   s.dependency 'AFNetworking', '~> 2.3'
 end
