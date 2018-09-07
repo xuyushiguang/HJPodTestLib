@@ -6,6 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Women.h"
 
 @interface Man : NSObject
 
