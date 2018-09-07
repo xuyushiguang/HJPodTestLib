@@ -34,8 +34,8 @@ Pod::Spec.new do |s|
    sp.source_files = 'HJPodTestLib/Classes/tool/Persion.{h,m}'
   end
 
-  s.subspec 'Man' do |smn|
-    smn.source_files = 'HJPodTestLib/Classes/tool/Man.{h,m}'
+  s.subspec 'Mant' do |smn|
+    smn.source_files = 'HJPodTestLib/Classes/tool/Mans/*.{h,m}'
   end
 
   s.subspec 'Women' do |swm|
