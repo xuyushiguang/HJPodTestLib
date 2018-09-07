@@ -36,12 +36,14 @@ Pod::Spec.new do |s|
    sp.source_files = 'HJPodTestLib/Classes/tool/Persion.{h,m}'
   end
 
-  s.subspec 'Mant' do |smn|
-    smn.source_files = 'HJPodTestLib/Classes/tool/Mans/*.{h,m}'
-  end
-
   s.subspec 'Women' do |swm|
     swm.source_files = 'HJPodTestLib/Classes/tool/Women.{h,m}'
+    swm.public_header_files = 'HJPodTestLib/Classes/tool/Women.h'
+  end
+
+  s.subspec 'Mant' do |smn|
+    smn.dependency 'HJPodTestLib/Women'
+    smn.source_files = 'HJPodTestLib/Classes/tool/Mans/*.{h,m}'
   end
 
   s.subspec 'Childen' do |sch|
