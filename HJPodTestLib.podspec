@@ -41,6 +41,7 @@ s.subspec 'Mant' do |smn|
     smn.source_files = 'HJPodTestLib/Classes/tool/Mans/*.{h,m}'
   end
   s.subspec 'Women' do |swm|
+    swm.dependency 'HJPodTestLib/Mant'
     swm.source_files = 'HJPodTestLib/Classes/tool/Women.{h,m}'
     #swm.public_header_files = 'HJPodTestLib/Classes/tool/Women.h'
   end
