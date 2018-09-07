@@ -31,20 +31,20 @@ Pod::Spec.new do |s|
 
   s.public_header_files = 'HJPodTestLib/Classes/tool/HJLib.h'
   s.source_files = 'HJPodTestLib/Classes/tool/HJLib.h'
-  
+
   s.subspec 'Persion' do |sp|
    sp.source_files = 'HJPodTestLib/Classes/tool/Persion.{h,m}'
   end
 
-  s.subspec 'Women' do |swm|
-    swm.source_files = 'HJPodTestLib/Classes/tool/Women.{h,m}'
-    swm.public_header_files = 'HJPodTestLib/Classes/tool/Women.h'
-  end
-
-  s.subspec 'Mant' do |smn|
-    smn.dependency 'HJPodTestLib/Women'
+s.subspec 'Mant' do |smn|
+    smn.dependency 'HJPodTestLib/tool'
     smn.source_files = 'HJPodTestLib/Classes/tool/Mans/*.{h,m}'
   end
+  s.subspec 'Women' do |swm|
+    swm.source_files = 'HJPodTestLib/Classes/tool/Women.{h,m}'
+    #swm.public_header_files = 'HJPodTestLib/Classes/tool/Women.h'
+  end
+
 
   s.subspec 'Childen' do |sch|
     sch.source_files = 'HJPodTestLib/Classes/tool/Childen.{h,m}'
