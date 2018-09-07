@@ -9,4 +9,6 @@
 #define HJLib_h
 
 
+#import "Women.h"
+
 #endif /* HJLib_h */
