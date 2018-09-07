@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
   s.requires_arc = true
 
-  s.public_header_files = 'HJPodTestLib/Classes/tool/HJLib.h'
+  #s.public_header_files = 'HJPodTestLib/Classes/tool/HJLib.h'
   s.source_files = 'HJPodTestLib/Classes/tool/HJLib.h'
 
   s.subspec 'Persion' do |sp|
@@ -37,7 +37,7 @@ Pod::Spec.new do |s|
   end
 
 s.subspec 'Mant' do |smn|
-    smn.dependency 'HJPodTestLib/tool'
+    smn.dependency 'HJPodTestLib/Women'
     smn.source_files = 'HJPodTestLib/Classes/tool/Mans/*.{h,m}'
   end
   s.subspec 'Women' do |swm|
