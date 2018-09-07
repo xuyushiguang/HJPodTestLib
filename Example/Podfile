@@ -1,6 +1,6 @@
 use_frameworks!
 target 'HJPodTestLib_Tests' do
   pod 'HJPodTestLib', :path => '../'
-  
+  pod 'AFNetworking', '~> 3.0'
   
 end
