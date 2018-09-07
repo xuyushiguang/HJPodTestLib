@@ -28,13 +28,26 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
   s.requires_arc = true
-  s.source_files = 'HJPodTestLib/Classes/**/*.{h,m}'
-  
+  s.source_files = 'HJPodTestLib/Classes/tool/HJLib.h'
+  s,subspec 'Perion' do |sp|
+   sp.source_files = 'HJPodTestLib/Classes/tool/Persion.{h,m}'
+  end
+  s.subspec 'Man' do |smn|
+    smn.source_files = 'HJPodTestLib/Classes/tool/Man.{h,m}'
+  end
+  s.subspec 'Women' do |swm|
+    swm.source_files = 'HJPodTestLib/Classes/tool/Women.{h,m}'
+  end
+  s.subspec 'Childen' do |sch|
+    sch.source_files = 'HJPodTestLib/Classes/tool/Childen.{h,m}'
+  end
+
+
   # s.resource_bundles = {
   #   'HJPodTestLib' => ['HJPodTestLib/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
    s.frameworks = 'UIKit', 'MapKit'
-   s.dependency 'AFNetworking', '~> 3.0'
+   #s.dependency 'AFNetworking', '~> 3.0'
 end

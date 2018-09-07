@@ -92,6 +92,7 @@
 		03275F1B214211DA00E32C3B /* Man.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Man.h; path = HJPodTestLib/Classes/tool/Man.h; sourceTree = "<group>"; };
 		03275F1C214211DA00E32C3B /* Childen.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Childen.m; path = HJPodTestLib/Classes/tool/Childen.m; sourceTree = "<group>"; };
 		03275F1D214211DA00E32C3B /* Man.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Man.m; path = HJPodTestLib/Classes/tool/Man.m; sourceTree = "<group>"; };
+		03275F1F2142151300E32C3B /* HJLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HJLib.h; path = HJPodTestLib/Classes/tool/HJLib.h; sourceTree = "<group>"; };
 		05BFBAF94DDF04E8BDBF6323835FB9BC /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
 		0929494D86649284B6A56EAB3F91B303 /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
 		09BDA8426E671B3F1385057205E67201 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
@@ -366,6 +367,7 @@
 		ECAF4400D4E890A10CD333EA8FAD71CF /* HJPodTestLib */ = {
 			isa = PBXGroup;
 			children = (
+				03275F1F2142151300E32C3B /* HJLib.h */,
 				03275F1A214211DA00E32C3B /* Childen.h */,
 				03275F1C214211DA00E32C3B /* Childen.m */,
 				03275F1B214211DA00E32C3B /* Man.h */,
